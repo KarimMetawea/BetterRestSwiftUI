@@ -11,6 +11,7 @@
 		8C90CC6E26F74983008208D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C90CC6D26F74983008208D6 /* ContentView.swift */; };
 		8C90CC7026F74984008208D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C90CC6F26F74984008208D6 /* Assets.xcassets */; };
 		8C90CC7326F74984008208D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C90CC7226F74984008208D6 /* Preview Assets.xcassets */; };
+		8C90CC7B26F7B4CF008208D6 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8C90CC7A26F7B4CF008208D6 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		8C90CC6F26F74984008208D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C90CC7226F74984008208D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C90CC7426F74984008208D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C90CC7A26F7B4CF008208D6 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8C90CC6D26F74983008208D6 /* ContentView.swift */,
 				8C90CC6F26F74984008208D6 /* Assets.xcassets */,
 				8C90CC7426F74984008208D6 /* Info.plist */,
+				8C90CC7A26F7B4CF008208D6 /* SleepCalculator.mlmodel */,
 				8C90CC7126F74984008208D6 /* Preview Content */,
 			);
 			path = BetterRestApp;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C90CC7B26F7B4CF008208D6 /* SleepCalculator.mlmodel in Sources */,
 				8C90CC6E26F74983008208D6 /* ContentView.swift in Sources */,
 				8C90CC6C26F74983008208D6 /* BetterRestAppApp.swift in Sources */,
 			);
